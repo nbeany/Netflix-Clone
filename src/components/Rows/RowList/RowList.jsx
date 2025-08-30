@@ -11,8 +11,8 @@ const RowList = () => {
         isLargeRow={true}
       />
       <Row title="Trending Now" 
-      fetchUrl={requests.fetchTrending} 
-       isLargeRow={true} 
+          fetchUrl={requests.fetchTrending} 
+          isLargeRow={true} 
        />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRatedMovies}  isLargeRow={true} />
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies}  isLargeRow={true} />
